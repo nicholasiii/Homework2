@@ -43,7 +43,7 @@ Set sht = ActiveSheet
 
       ' Get Ticker, Update price for Final Price
       Ticker = Cells(i, 1).Value
-      FinalPrice = Cells(i, 3).Value
+      FinalPrice = Cells(i, 6).Value
       ' Add to the Stock Volume Total
       Stock_Volume = Stock_Volume + Cells(i, 7).Value
 
